@@ -9,6 +9,6 @@ By lepiej zobrazować dane postanowiłem stworzyć wykres, który podkreśla ró
 
 ![image](https://user-images.githubusercontent.com/80579076/148447265-47189459-ae38-4941-a882-af4836fc1346.png)
 
-Kolejna rzecz, na którą zwróciłem uwagę to Wyniki poszczególnych metod. Okazuje się, że program nie liczy całki poprawnie dla N =100000000. 
+Kolejna rzecz, na którą zwróciłem uwagę to Wyniki poszczególnych metod. Okazuje się, że program nie liczy całki poprawnie dla N =100000000. Metoda Simpsona dla N=10,100, 1000 również nie liczy jej poprawnie. 
 
 ![image](https://user-images.githubusercontent.com/80579076/148447597-8f38de23-e7d1-41bd-88cf-80ceab14284f.png)
