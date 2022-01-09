@@ -1,5 +1,6 @@
 Lab 10
 Zaimplementuj w Google Colab całkowanie numeryczne metodą prostokątów, trapezów oraz Simpsona w wersji na CPU i GPU. Przestaw różnice w czasie obliczeń w zależności od rozmiaru problemu (liczby przedziałów całkowania) w postaci wykresów oraz wniosków.
+![image](https://user-images.githubusercontent.com/80579076/148691605-919bf691-4a75-4cad-bf90-da46949717fb.png)
 
 ![image](https://user-images.githubusercontent.com/80579076/148446046-c15fd2eb-a879-498c-9113-842164d2fae6.png)
 
