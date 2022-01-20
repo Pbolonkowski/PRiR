@@ -21,5 +21,3 @@ Załadowanie zestawu danych zwraca cztery tablice NumPy
 Obrazy są tablicami 28x28 NumPy, z wartościami pikseli w zakresie od 0 do 255. Etykiety są tablicami liczb całkowitych z zakresu od 0 do 9.
 Każdy obraz jest mapowany na pojedynczą etykietę. Ponieważ nazwy klas nie są dołączone do zestawu danych, zapije się je, aby użyć później podczas kreślenia obrazów.
 
-Okazuje się, że dokładność zestawu danych testowych jest nieco mniejsza niż dokładność zestawu danych treningowych. Ta luka między dokładnością treningu a dokładnością testu oznacza przesadne dopasowanie . Overfitting ma miejsce, gdy model uczenia maszynowego działa gorzej na nowych, wcześniej niewidocznych danych wejściowych niż na danych szkoleniowych. Przesadnie dopasowany model „zapamiętuje” szum i szczegóły w uczącym zestawie danych do punktu, w którym negatywnie wpływa na wydajność modelu na nowych danych.
-
