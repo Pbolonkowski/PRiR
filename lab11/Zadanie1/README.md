@@ -7,9 +7,10 @@ Splotowa sieć neuronowa tworzy reprezentacje obrazu wzdłuż hierarchii przetwa
 
 ![image](https://user-images.githubusercontent.com/80579076/150417035-5be2a551-0787-4ca9-bb87-d22497fe0495.png)
 
-Powyższy rysunek przedstawia rekonstrukcję obrazu wejściowego z warstw „konw1_1”, „konw2_1”, „konw3_1”, „konw4_1” i „konw5_1”. Odkrywamy, że rekonstrukcja z niższych warstw jest prawie taka sama jak na obrazie wejściowym, ale gdy wchodzimy głębiej w sieć, szczegółowe informacje o pikselach są tracone. W przeciwieństwie do tego, zawartość obrazu na wysokim poziomie zostaje zachowana.
+Powyższy rysunek przedstawia rekonstrukcję obrazu wejściowego z warstw „conw1_1”, „conw2_1”, „conw3_1”, „conw4_1” i „conw5_1”. Odkrywamy, że rekonstrukcja z niższych warstw jest prawie taka sama jak na obrazie wejściowym, ale gdy wchodzimy głębiej w sieć, szczegółowe informacje o pikselach są tracone. W przeciwieństwie do tego, zawartość obrazu na wysokim poziomie zostaje zachowana.
 
 Reprezentacja stylu
+
 Aby wyodrębnić reprezentację zawartości stylu, budujemy przestrzeń funkcji na górze odpowiedzi filtra w każdej warstwie sieci. Składa się z korelacji między różnymi odpowiedziami filtrów w zakresie przestrzennym map cech. Korelacja filtrów różnych warstw przechwytuje informacje o teksturze obrazu wejściowego. Tworzy to obrazy, które pasują do stylu danego obrazu na coraz większą skalę, jednocześnie odrzucając informacje o globalnym układzie. Ta wieloskalowa reprezentacja nazywana jest reprezentacją stylu.
 
 ![image](https://user-images.githubusercontent.com/80579076/150417260-3df3d685-0b5e-4eed-b3fe-54de79a4dbf4.png)
