@@ -25,3 +25,5 @@ Architektura modelu
 ![image](https://user-images.githubusercontent.com/80579076/150417545-1f48ca5e-a04a-4d8c-b912-06b083a4973a.png)
 
 Tutaj używamy konwolucyjnej sieci neuronowej sieci VGG19 wytrenowanej wcześniej i wykonujemy rekonstrukcje treści i stylu. Splątując informacje strukturalne z reprezentacji treści oraz informacje o teksturze/stylu z reprezentacji stylu, generujemy obraz artystyczny. Możemy położyć nacisk na odtworzenie stylu lub treści. Silny nacisk na styl zaowocuje obrazami, które będą pasować do wyglądu grafiki, skutecznie nadając jej teksturowaną wersję, ale prawie nie pokazują żadnej zawartości fotografii. Kładąc duży nacisk na treść, można zidentyfikować fotografię, ale styl malowania nie jest tak dobrze dopasowany. Wykonujemy schodzenie gradientowe na wygenerowanym obrazie, aby znaleźć inny obraz, który pasuje do odpowiedzi funkcji oryginalnego obrazu.
+
+źródło: https://github.com/Octaves0911/Neural_Style_Transfer/blob/master/NST.py
