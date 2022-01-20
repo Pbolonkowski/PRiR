@@ -21,3 +21,4 @@ Załadowanie zestawu danych zwraca cztery tablice NumPy
 Obrazy są tablicami 28x28 NumPy, z wartościami pikseli w zakresie od 0 do 255. Etykiety są tablicami liczb całkowitych z zakresu od 0 do 9.
 Każdy obraz jest mapowany na pojedynczą etykietę. Ponieważ nazwy klas nie są dołączone do zestawu danych, zapije się je, aby użyć później podczas kreślenia obrazów.
 
+źródło: https://github.com/tensorflow/docs/blob/master/site/en/tutorials/keras/classification.ipynb
