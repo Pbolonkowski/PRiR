@@ -3,6 +3,7 @@ Znajdź i opisz/przetestuj/może rozwiń inne ciekawe zastosowanie biblioteki py
 Zadanie 1. 
 
 Zastosowanie biblioteki pyTorch do transformacji obrazu.
+
 Transfer stylu neuronowego to sztuczny system oparty na głębokiej sieci neuronowej do generowania obrazów artystycznych. To podejście wykorzystuje dwa losowe obrazy, treść i obraz stylu. Wyodrębnia cechy strukturalne z obrazu treści oraz cechy stylu z obrazu stylu.
 
 Splotowa sieć neuronowa tworzy reprezentacje obrazu wzdłuż hierarchii przetwarzania. Gdy wejdziemy głębiej w sieć, reprezentacje będą bardziej dbać o cechy strukturalne lub rzeczywistą zawartość niż o szczegółowe dane pikseli. Aby uzyskać te reprezentacje, możemy zrekonstruować obrazy za pomocą map cech tej warstwy. Rekonstrukcja z dolnej warstwy odtworzy dokładny obraz. W przeciwieństwie do tego, rekonstrukcja wyższej warstwy przechwyci zawartość wysokiego poziomu, a zatem odpowiedzi na cechy z wyższej warstwy będziemy nazywać reprezentacją zawartości.
